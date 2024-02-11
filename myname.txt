@@ -1,0 +1,13 @@
+package Mayur;
+
+public class myname {
+	public static void main(String[] args) {
+		System.out.println("Mayur");
+		System.out.println("Swapnil");
+		System.out.println("Shubham");
+		System.out.println("Vicky");
+		System.out.println("Ganesh");
+
+		
+	}
+}

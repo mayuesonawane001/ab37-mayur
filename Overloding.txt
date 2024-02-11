@@ -1,0 +1,30 @@
+package Mayur;
+
+public class Overloding {
+	void add(boolean a)
+	{
+		
+	}
+	void add(String a,boolean b,char c,double d)
+	{
+		
+	}
+	void add(int a, int b,String c)
+	{
+		
+	}
+	void add(double a, char b)
+	{
+		
+	}
+	public static void main(String[] args) 
+	{
+		Overloding o1 =new Overloding();
+		o1.add(false);
+		o1.add(9.76, 'M');
+		o1.add("Mayur", true, '6', 7.65);
+		o1.add(2, 88,"Vishal");
+	}
+
+}
+

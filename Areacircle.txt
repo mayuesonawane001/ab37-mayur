@@ -1,0 +1,14 @@
+package Mayur;
+
+public class Areacircle {
+
+	public static void main(String[] args) {
+		int r;
+	    double pi = 3.14, area;
+	   r=15;
+	    area = pi*r*r;
+	    System.out.println("Area of circle:"+area);
+	    
+	}
+
+}

@@ -1,0 +1,14 @@
+package Mayur;
+
+public class IIB_mainmethod
+{
+	{
+		System.out.println("i am IIB");
+	}
+	public static void main(String[] args)
+	{
+		new IIB_mainmethod(); 
+		System.out.println("i am main method");
+		
+	}
+}

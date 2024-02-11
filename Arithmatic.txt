@@ -1,0 +1,39 @@
+package Mayur;
+
+public class Arithmatic
+{
+	static void add() 
+	{		
+		int no1= 10;
+		int no2= 20;
+		int result =no1+no2;
+		System.out.println("Add"+result);
+	}
+	static void sub(){
+		int no1= 10;
+		int no2= 20;
+		int result =no1-no2;
+		System.out.println("sub"+result);
+	}
+	static void mul(){
+		int no1= 10;
+		int no2= 20;
+		int result = no1*no2;
+		System.out.println("mul"+result);
+	}
+	static void div(){
+		int no1= 100;
+		int no2= 5;
+		int result =no1/no2;
+		System.out.println("div"+result);
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("output will be starting from hear");
+		add();
+		sub();
+		mul();
+		div();
+	}
+
+}

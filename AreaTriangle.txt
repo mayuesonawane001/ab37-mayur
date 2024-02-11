@@ -1,0 +1,13 @@
+package Mayur;
+
+public class AreaTriangle {
+
+	public static void main(String[] args) {
+		 int b=4;
+	     int h=13;
+	     int result= (b*h)/2;
+	      System.out.println("Area of Triangle is" +result);
+
+	}
+
+}

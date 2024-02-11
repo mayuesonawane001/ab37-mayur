@@ -6,15 +6,11 @@ public class ifcondition {
 	{
 		int a=10;
 		int b=5;
-		if(a>b)
+		if(a<b)
 		{
-			System.out.println("Print ifcondition");
+			int c=a+b;
+			System.out.println(c);
 		}	
 	}
 
 }
-
-
-
-
-O/P    Print ifcondition

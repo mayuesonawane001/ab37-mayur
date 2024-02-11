@@ -1,0 +1,28 @@
+package Mayur;
+
+public class Overlodnonstatic {
+	static void add()
+	{
+		int a= 10;
+		int b= a+12;
+	System.out.println(b);
+	}
+	void add(int a)
+	{
+		int b= a+12;
+	System.out.println(b);
+	}
+	void add(double b)
+	{
+		double a= b+12;
+	System.out.println(b);
+	}
+	public static void main(String[] args)
+	{
+		add();
+		Overlodnonstatic m1 = new Overlodnonstatic();
+		m1.add(9);
+		m1.add(7.65);
+	}
+	
+}

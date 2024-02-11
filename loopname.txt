@@ -1,0 +1,14 @@
+package Mayur;
+
+public class loopname
+{
+	public static void main(String[] args) 
+	{
+		int i=10;
+		for(i=2;i<0;i++)
+		{
+			System.out.println("Mayur"); 
+		}
+		System.out.println(i);
+	}
+}

@@ -1,0 +1,24 @@
+package Mayur;
+
+public class Nonstatik {
+	static void contry1()
+	{
+		System.out.println("south Africa");
+	}
+	void contry2()
+	{
+		System.out.println("Denmark");
+	}	
+	void contry3()
+	{
+		System.out.println("India");
+	}	
+	public static void main(String[] args)
+	{
+		contry1();
+		Nonstatik w1=new Nonstatik();
+		w1.contry2();
+		w1.contry3();
+	}
+
+}

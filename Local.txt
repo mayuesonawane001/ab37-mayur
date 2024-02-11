@@ -1,0 +1,17 @@
+package Mayur;
+
+public class Local 
+{
+		
+	void add()
+	{
+		int b=217;
+		System.out.println(b);
+	}
+	public static void main(String[] args) 
+	{
+		int a=100;
+		System.out.println(a);
+	}
+
+}

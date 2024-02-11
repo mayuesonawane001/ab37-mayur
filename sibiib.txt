@@ -1,0 +1,23 @@
+package Mayur;
+
+public class sibiib 
+{
+	sibiib()
+	{
+		System.out.println("i am constructor");
+	}
+	static
+	{
+		System.out.println("i am SIB");
+	}
+	{
+		System.out.println("i am IIB");
+	}
+	public static void main(String[] args) 
+	{
+		//new sibiib();
+		System.out.println("i am main method");
+		
+	}
+
+}

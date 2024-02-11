@@ -1,0 +1,11 @@
+package Mayur;
+
+public class AreaSquare {
+
+	public static void main(String[] args) {
+		int a=5;
+	    int result=a*a;
+	    System.out.println("Area of Square is"+result);
+	}
+
+}

@@ -1,0 +1,14 @@
+package Mayur;
+
+public class LocalGlobal 
+{
+	int a=200;
+	static String name="Mayur"; 
+	public static void main(String[] args) 
+	{
+		System.out.println(name);
+		LocalGlobal d1= new LocalGlobal();
+		System.out.println(d1.a);
+	}
+
+}

@@ -1,0 +1,22 @@
+package Mayur;
+
+public class Globle
+{
+	int a=100;
+	static boolean b= true;
+	String c="India";
+	static int z=564;
+	static int mayur;
+	static void add()
+	{
+		
+	}
+	public static void main(String[] args)
+	{
+		mayur=1;
+		int u1=2000;
+		System.out.println(b);
+		System.out.println(z);
+	}
+
+}
